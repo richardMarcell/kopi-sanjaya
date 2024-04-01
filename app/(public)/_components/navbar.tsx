@@ -36,17 +36,11 @@ export default function NavBar() {
         <Link className="hover:font-bold hover:text-green" href={"#home"}>
           Home
         </Link>
-        <Link className="hover:font-bold hover:text-green" href={"#about"}>
-          About Us
+        <Link className="hover:font-bold hover:text-green" href={"#home"}>
+          Advantages
         </Link>
         <Link className="hover:font-bold hover:text-green" href={"#product"}>
           Product
-        </Link>
-        <Link
-          className="hover:font-bold hover:text-green"
-          href={"#testimonial"}
-        >
-          Testimonial
         </Link>
         <Link className="hover:font-bold hover:text-green" href={"#contact"}>
           Contact
