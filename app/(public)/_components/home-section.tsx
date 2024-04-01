@@ -1,8 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomeSection() {
   return (
-    <section className="flex items-center flex-col-reverse p-4 gap-4 mt-5">
+    <section
+      id="home"
+      className="flex items-center flex-col-reverse p-4 gap-4 mt-5"
+    >
       <div className="flex flex-col items-center gap-4">
         <h1 className="font-black md:text-4xl lg:text-5xl text-3xl text-green text-center">
           Menyajikan Kelezatan Kopi Bubuk Terbaik
@@ -12,9 +16,12 @@ export default function HomeSection() {
           kami, dipanggang dengan penuh cinta dan disajikan dengan senyuman.
           Sambut pagi dengan segelas kopi, sambut kehidupan dengan Kopi Sanjaya.
         </p>
-        <button className="p-4 font-bold bg-green hover:opacity-80 text-white rounded-full">
+        <Link
+          href={"#advantages"}
+          className="p-4 font-bold bg-green hover:opacity-80 text-white rounded-full"
+        >
           Selengkapnya
-        </button>
+        </Link>
       </div>
       <Image
         width={0}

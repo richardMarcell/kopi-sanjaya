@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProductSection() {
   return (
-    <section className="px-16 lg:px-32 mt-32">
+    <section id="product" className="px-16 lg:px-32 mt-32">
       <div className="space-y-4">
         <p className="font-black text-green opacity-50">PRODUCT</p>
         <h1 className="font-black text-3xl lg:text-5xl text-green">

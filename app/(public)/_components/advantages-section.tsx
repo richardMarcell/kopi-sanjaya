@@ -2,7 +2,7 @@ import { BadgeDollarSignIcon, Factory, LibraryBig } from "lucide-react";
 
 export default function AdvantagesSection() {
   return (
-    <section className="mt-32 space-y-4">
+    <section id="advantages" className="mt-32 space-y-4">
       <p className="font-black text-center text-green opacity-50">ADVANTAGES</p>
       <h1 className="text-center font-black text-3xl lg:text-5xl text-green">
         Why Kopi Sanjaya?

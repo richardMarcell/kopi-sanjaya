@@ -1,9 +1,9 @@
+import { InstagramLogoIcon } from "@radix-ui/react-icons";
+import { PhoneCallIcon, ShoppingBag } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { ReactNode } from "react";
 import NavBar from "./_components/navbar";
-import Link from "next/link";
-import { InstagramLogoIcon } from "@radix-ui/react-icons";
-import { Instagram, PhoneCallIcon, ShoppingBag } from "lucide-react";
 
 export default function PublicLayout({ children }: { children: ReactNode }) {
   return (
@@ -25,7 +25,7 @@ export default function PublicLayout({ children }: { children: ReactNode }) {
         <NavBar />
       </header>
       <main>{children}</main>
-      <footer className="px-8 py-4 bg-slate-50  mt-32 space-y-6">
+      <footer id="contact" className="px-8 py-4 bg-slate-50  mt-32 space-y-6">
         <div className="flex items-center gap-1">
           <Image
             src={"/images/logo.png"}
@@ -44,7 +44,10 @@ export default function PublicLayout({ children }: { children: ReactNode }) {
           <Link className="hover:font-bold hover:text-green" href={"#home"}>
             Home
           </Link>
-          <Link className="hover:font-bold hover:text-green" href={"#home"}>
+          <Link
+            className="hover:font-bold hover:text-green"
+            href={"#advantages"}
+          >
             Advantages
           </Link>
           <Link className="hover:font-bold hover:text-green" href={"#product"}>

@@ -29,14 +29,14 @@ export default function NavBar() {
         ></span>
       </div>
       <nav
-        className={`fixed bg-white right-6 top-16 flex w-[250px] ${
+        className={`absolute bg-white right-6 top-16 flex w-[250px] ${
           isOpen ? "block" : "hidden lg:flex"
         } flex-col gap-6 rounded-md border p-10 shadow-md transition-all duration-200 lg:static lg:w-auto lg:flex-row lg:items-center lg:gap-10 lg:rounded-none lg:border-none lg:p-0  lg:shadow-none`}
       >
         <Link className="hover:font-bold hover:text-green" href={"#home"}>
           Home
         </Link>
-        <Link className="hover:font-bold hover:text-green" href={"#home"}>
+        <Link className="hover:font-bold hover:text-green" href={"#advantages"}>
           Advantages
         </Link>
         <Link className="hover:font-bold hover:text-green" href={"#product"}>
