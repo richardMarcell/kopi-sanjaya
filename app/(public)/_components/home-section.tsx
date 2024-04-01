@@ -24,6 +24,7 @@ export default function HomeSection() {
         </Link>
       </div>
       <Image
+        loading="lazy"
         width={0}
         height={0}
         src={"/images/heroes-ornament.svg"}

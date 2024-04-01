@@ -11,6 +11,7 @@ export default function PublicLayout({ children }: { children: ReactNode }) {
       <header className="py-4 px-4 md:px-8 flex justify-between items-center border-[0.5px]">
         <Link href={"#home"} className="flex items-center gap-2 cursor-pointer">
           <Image
+            loading="lazy"
             src={"/images/logo.png"}
             alt="logo"
             width={0}
@@ -28,6 +29,7 @@ export default function PublicLayout({ children }: { children: ReactNode }) {
       <footer id="contact" className="px-8 py-4 bg-slate-50  mt-32 space-y-6">
         <div className="flex items-center gap-1">
           <Image
+            loading="lazy"
             src={"/images/logo.png"}
             alt="logo"
             width={0}

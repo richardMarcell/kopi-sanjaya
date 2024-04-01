@@ -12,6 +12,7 @@ export default function ProductSection() {
       <div className="flex gap-8 flex-col mt-10">
         <div className="flex flex-col md:flex-row gap-4">
           <Image
+            loading="lazy"
             src={"/images/kopi-biasa.png"}
             alt="Kopi Biasa"
             width={0}
@@ -78,6 +79,7 @@ export default function ProductSection() {
         </div>
         <div className="flex flex-col md:flex-row-reverse gap-4">
           <Image
+            loading="lazy"
             src={"/images/kopi-premium.png"}
             alt="Kopi Biasa"
             width={0}
