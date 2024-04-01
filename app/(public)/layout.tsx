@@ -23,7 +23,22 @@ export default function PublicLayout({ children }: { children: ReactNode }) {
         <NavBar />
       </header>
       <main>{children}</main>
-      <footer></footer>
+      <footer className="p-4 border-t mt-32">
+        <div className="flex items-center gap-1">
+          <Image
+            src={"/images/logo.png"}
+            alt="logo"
+            width={0}
+            height={0}
+            sizes="100%"
+            className="w-16 h-16"
+          />
+          <h1 className="font-black hidden md:block italic text-2xl text-green">
+            KopiSanjaya
+          </h1>
+        </div>
+        <p></p>
+      </footer>
     </>
   );
 }
