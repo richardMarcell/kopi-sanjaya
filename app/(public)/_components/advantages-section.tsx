@@ -22,7 +22,9 @@ export default function AdvantagesSection() {
           </p>
         </div>
         <div className="p-4 flex flex-col items-center rounded-xl w-80 h-60 gap-2">
-          <LibraryBig size={50} className="text-green" />
+          <div>
+            <LibraryBig size={40} className="text-green" />
+          </div>
           <h1 className="font-black text-green">Varian</h1>
           <p className="text-center">
             Kopi Sanjaya hadir dalam dua jenis, kopi bubuk biasa dan kopi bubuk
@@ -31,7 +33,9 @@ export default function AdvantagesSection() {
           </p>
         </div>
         <div className="p-4 flex flex-col items-center rounded-xl w-80 h-60 gap-2">
-          <Factory size={50} className="text-green" />
+          <div>
+            <Factory size={40} className="text-green" />
+          </div>{" "}
           <h1 className="font-black text-green">Robusta</h1>
           <p className="text-center">
             Kopi Sanjaya menggunakan jenis biji kopi Robusta untuk varian
