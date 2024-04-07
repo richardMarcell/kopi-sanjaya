@@ -101,7 +101,7 @@ export default function ProductSection() {
               <div>
                 <p className="font-bold">200 gr</p>
                 <p>
-                  Anda bisa mendapatkan varian premium dalam 100gr pada harga
+                  Anda bisa mendapatkan varian premium dalam 200gr pada harga
                   Rp32.000
                 </p>
               </div>
@@ -113,7 +113,7 @@ export default function ProductSection() {
               <div>
                 <p className="font-bold">400 gr</p>
                 <p>
-                  Anda bisa mendapatkan varian premium dalam 200gr pada harga
+                  Anda bisa mendapatkan varian premium dalam 400gr pada harga
                   Rp64.000
                 </p>
               </div>
