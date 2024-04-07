@@ -56,7 +56,7 @@ export default function ProductSection() {
                 3
               </div>
               <div>
-                <p className="font-bold">200 gr</p>
+                <p className="font-bold">500 gr</p>
                 <p>
                   Anda bisa mendapatkan varian biasa dalam 500gr pada harga
                   Rp37.500
