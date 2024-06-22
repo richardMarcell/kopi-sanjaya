@@ -1,4 +1,4 @@
-import { BadgeDollarSignIcon, Factory, LibraryBig } from "lucide-react";
+import { BadgeDollarSignIcon, Book, Factory, LibraryBig } from "lucide-react";
 
 export default function AdvantagesSection() {
   return (
@@ -41,6 +41,15 @@ export default function AdvantagesSection() {
             Kopi Sanjaya menggunakan jenis biji kopi Robusta untuk varian
             premium. Kopi Robusta memiliki rasa yang sangat kuat, dengan rasa
             yang lebih pahit dibandingkan kopi arabika
+          </p>
+        </div>
+        <div className="p-4 flex flex-col items-center rounded-xl w-80 h-60 gap-2">
+          <div>
+            <Book size={40} className="text-green" />
+          </div>{" "}
+          <h1 className="font-black text-green">Legalitas</h1>
+          <p className="text-center">
+          Kopi Sanjaya telah mendapatkan sertifikasi P-IRT dari Dinas Kesehatan. Ini menjamin bahwa kopi kami memenuhi standar keamanan dan kebersihan yang ketat.
           </p>
         </div>
       </div>

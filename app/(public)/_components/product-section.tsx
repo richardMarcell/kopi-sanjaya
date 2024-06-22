@@ -13,7 +13,7 @@ export default function ProductSection() {
         <div className="flex flex-col md:flex-row gap-4">
           <Image
             loading="lazy"
-            src={"/images/kopi-biasa.png"}
+            src={"/images/kopi-biasa-new.jpg"}
             alt="Kopi Biasa"
             width={0}
             height={0}
@@ -118,6 +118,29 @@ export default function ProductSection() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="space-y-4">
+          <h1 className="font-black text-xl opacity-80">New Variant</h1>
+          <div className="flex gap-4">
+            <Image
+              loading="lazy"
+              src={"/images/kopi-toples-300-gram.jpg"}
+              alt="Kopi Biasa"
+              width={0}
+              height={0}
+              sizes="100%"
+              className="md:w-1/2 w-full h-[250px] lg:h-[750px] border rounded-xl object-fill"
+            />
+            <Image
+              loading="lazy"
+              src={"/images/kopi-toples-500-gram.jpg"}
+              alt="Kopi Biasa"
+              width={0}
+              height={0}
+              sizes="100%"
+              className="md:w-1/2 w-full h-[250px] lg:h-[750px] border rounded-xl object-fill"
+            />
           </div>
         </div>
       </div>
